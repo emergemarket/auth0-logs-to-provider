@@ -7,6 +7,7 @@ const argv = yargs
     alias: 'p',
     default: null
   })
+  .help()
   .argv;
 
 (function () {
